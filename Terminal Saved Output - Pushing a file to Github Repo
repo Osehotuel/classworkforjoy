@@ -1,0 +1,63 @@
+Last login: Sat Sep 24 22:28:53 on ttys000
+busha@BUSHAs-MacBook-Air-2 ~ % ls
+Applications		Downloads		Pictures
+Creative Cloud Files	Library			Public
+Desktop			Movies
+Documents		Music
+busha@BUSHAs-MacBook-Air-2 ~ % cd desktop
+busha@BUSHAs-MacBook-Air-2 desktop % cd Tech4dev
+busha@BUSHAs-MacBook-Air-2 Tech4dev % ls
+lastassignment.sol
+busha@BUSHAs-MacBook-Air-2 Tech4dev % git init
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint: 	git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint: 	git branch -m <name>
+Initialized empty Git repository in /Users/busha/Desktop/Tech4Dev/.git/
+busha@BUSHAs-MacBook-Air-2 Tech4dev % git add .
+busha@BUSHAs-MacBook-Air-2 Tech4dev % git commit -m "first commit"
+[master (root-commit) 65c6f69] first commit
+ Committer: BUSHA <busha@BUSHAs-MacBook-Air-2.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 23 insertions(+)
+ create mode 100644 .DS_Store
+ create mode 100644 lastassignment.sol
+busha@BUSHAs-MacBook-Air-2 Tech4dev % git branch -M main
+busha@BUSHAs-MacBook-Air-2 Tech4dev % git remote add origin https://github.com/Osehotuel/lastassignmentjjoy.git
+busha@BUSHAs-MacBook-Air-2 Tech4dev % git push -u origin main
+Username for 'https://github.com': Osehotuel
+Password for 'https://Osehotuel@github.com': 
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 727 bytes | 727.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Osehotuel/lastassignmentjjoy.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+busha@BUSHAs-MacBook-Air-2 Tech4dev % 
+
+
+
+
+
+
+
+
